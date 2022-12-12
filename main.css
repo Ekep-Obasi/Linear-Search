@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.full-screen-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid transparent;
+  box-shadow:rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 25px; 
+  border-radius: 25px;
+  background-color: rgb(72, 71, 71);
+}
+.field{
+  height: 50px;
+  width: 95%;
+  border: 1px solid gray;
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  background-color: lightgray;
+}
+.userContainer{
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-left: 5px;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(72, 71, 71);
+}
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(72, 71, 71);
+  margin:  16px 0px;
+}
+.display{
+  font-size: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: 25px;
+}
+.data p{
+  margin: 0;
+}
+.data{
+  display: flex;
+  gap: 10px;
+}
+button{
+  background-color: mediumseagreen;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+}
+button:hover{
+  scale: 0.955;
+}
+.message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 110%;
+}
+@media only screen and (max-width: 550px){
+  .container{
+
+  }
+}
